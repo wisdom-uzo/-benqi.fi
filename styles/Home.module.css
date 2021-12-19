@@ -401,11 +401,13 @@ font-size: 13px;
 }
 .right__app_icon {
   border-radius: 8px;
+  z-index: 9999;
   height: 34px;
   margin: 0 11px 2px 0;
-  width: 34px;
   background-size: 100%;
   box-shadow: 0 4px 12px 0 rgb(37 41 46 / 25%);
+  position: relative;
+  overflow: 'hidden'
 }
 .close__icon {
   position: relative;
